@@ -1,0 +1,60 @@
+/*!
+ * Start Bootstrap - 1 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+.navbar {
+    background-color: #000000;
+}
+.navbar p, h1, h2, h3, h4, h5, h6, a{
+    color: #ffffff;
+}
+
+
+body {
+    padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background: navy; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, navy, gray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, navy, gray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, navy, gray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, black, darkgrey); /* Standard syntax */
+}
+body p, a, h1, h2, h3, h4, h5, h6, b{
+    font-family: "Lucida Console", Monaco, monospace;
+    color: white;
+}
+
+footer{
+    background-color: black;
+}
+
+footer p, h1, h2, h3, h4, h5, h6, a, ul{
+    color: #ffffff;
+}
+
+#plakat h1{
+    font-size: 500%;
+}
+
+@media only screen and (max-width: 480px) {
+
+    #plakat h1 {
+        font-size: 230%;
+    }
+}
+#plakat {
+    background-image: url("bg/kreski.png");
+    background-position: left top;
+    background-size: 55%;
+    background-repeat: no-repeat;
+}
+
+hr{
+    padding-bottom: 2em;
+}
+
+footer {
+    margin: 50px 0;
+}
