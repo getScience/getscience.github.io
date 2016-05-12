@@ -52,7 +52,8 @@ footer p, h1, h2, h3, h4, h5, h6, a, ul{
 }
 
 hr{
-    padding-bottom: 2em;
+    padding-bottom: 15em;
+    border-color: transparent;
 }
 
 footer {
